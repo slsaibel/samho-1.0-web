@@ -1,6 +1,6 @@
 <%-- 
     Document   : view_sintomas_apresentados.jsp
-    Created on : "Sexta-feira, 30 de Junho de 2017"
+    Created on : "Terça-feira, 11 de Julho de 2017"
     Author     : "Sergio"
     Path:      : com.samho.necocio.SintomasApresentados
 --%>
@@ -77,7 +77,7 @@
          <!-- Formulário de cadcastro -->
          <h2>Consulta de "Sintoma"</h2>
          <form action="#" method="post">
-             <div class="form_settings">
+             <div id="form_settings" class="form_settings">
                  <%
                  Objeto objeto = new SintomasApresentados();
                  objeto.getObjetoDAO().setCamposTabelaFormatados();

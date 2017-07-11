@@ -1,6 +1,6 @@
 <%-- 
     Document   : view_prontuarios_medicamentos.jsp
-    Created on : "Sexta-feira, 30 de Junho de 2017"
+    Created on : "Terça-feira, 11 de Julho de 2017"
     Author     : "Sergio"
     Path:      : com.samho.necocio.ProntuariosMedicamentos
 --%>
@@ -77,7 +77,7 @@
          <!-- Formulário de cadcastro -->
          <h2>Consulta de "Prontuário - Medicamento"</h2>
          <form action="#" method="post">
-             <div class="form_settings">
+             <div id="form_settings" class="form_settings">
                  <%
                  Objeto objeto = new ProntuariosMedicamentos();
                  objeto.getObjetoDAO().setCamposTabelaFormatados();
