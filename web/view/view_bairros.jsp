@@ -20,8 +20,8 @@
      <!-- Estilos da página -->
      <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/style.css" />
      <!-- Fonte de icones -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+     <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
      <script>
          // Função javascript para incluir um registro
          function incluirRegistro() {
@@ -45,7 +45,19 @@
              }
          }
      </script> 
- </head>
+     <!-- Exibir ID -->
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $("#ocultar").click(function (event) {
+                 event.preventDefault();
+                 $("#pesquisa").hide("slow");
+             });
+             $("#mostrar").click(function (event) {
+                 event.preventDefault();
+                 $("#pesquisa").show(900);
+             });
+         });
+     </script><!-- Exibie ID --> </head>
 <body>
  <div id="main">
  <header>
@@ -78,7 +90,18 @@
          <h2>Consulta de "Bairro"</h2>
          <form action="#" method="post">
              <div id="form_settings" class="form_settings">
-                 <%
+                 <div id="pesquisa">
+                     <p>
+                         <span for="input_codigo">Código</span>
+                         <input id="input_codigo" class="en_50" data-type="search"></input>
+                         <span for="input_descricao">Descrição</span>
+                         <input id="input_descricao" class="en_450" data-type="search"></input>
+                     </p>
+                 </div>
+                 <p>
+                     a href="#" id="ocultar"> << </a> | 
+                     <a href="#" id="mostrar"> >> </a>  
+                 </p>                 <%
                  Objeto objeto = new Bairros();
                  objeto.getObjetoDAO().setCamposTabelaFormatados();
                  Object[] cabecalho = objeto.getObjetoDAO().getCabecalhoTabela();
