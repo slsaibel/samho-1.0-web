@@ -1,0 +1,744 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/06/2017, 09:50:01
+    Author     : Sergio
+*/
+@font-face {
+    font-family: Droid Sans;
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: local("Droid Sans"), url('../fonts/DroidSans-webfont.woff');
+}
+
+@font-face {
+    font-family: News Cycle;
+    src: url('../fonts/NewsCycle-Regular.eot');
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+    display:block;
+}
+
+body {
+    font: normal .80em 'Droid Sans', arial, sans-serif;
+    background: #FFF;
+    color: #000;
+}
+
+p {
+    padding: 0 0 16px 0;
+    line-height: 1.7em;
+}
+
+img {
+    padding: 0 0 0 0;
+    border: 0;
+}
+
+img a:hover  {
+    cursor:pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+}
+
+h1, h2, h3 {
+    font: normal 140% 'News Cycle', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+}
+
+h2 {
+    font-size: 160%;
+    padding: 9px 0 5px 0;
+}
+
+h3 {
+    font-size: 140%;
+    padding: 5px 0 0 0;
+}
+
+h4, h6 {
+    padding: 0 0 5px 0;
+    font: normal 120% 'Droid Sans', arial, sans-serif;
+}
+
+h5, h6 {
+    font: italic 100% 'Droid Sans', arial;
+    padding: 0 0 15px 0;
+}
+
+h6 {
+    font: normal 100% 'Droid Sans', arial;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #00CDCD;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px 0 20px;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+ol {
+    margin: 8px 0 22px 20px;
+}
+
+ol li {
+    margin: 0 0 11px 0;
+}
+
+.left {
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    width: auto;
+    margin-left: 10px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.img_icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#main, #container, #logo, #site_content, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    background: transparent;
+}
+
+
+header {
+    background: #1D1D1D url("<%=request.getContextPath()%>/images/graphic.png");
+    height: 200px;
+}
+
+#logo {
+    width: 80%;
+    height: 180px;
+    background: transparent;
+    color: #888;
+    padding: 20px 0 0 0;
+}
+
+#logo #logo_text {
+    width: 330px;
+    left: 0;
+    padding: 0 20px 20px 20px;
+}
+
+#logo h1, #logo h2 {
+    font: normal 400% 'News Cycle', arial, sans-serif;
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+    padding: 0;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour {
+    color: #00CDCD;
+    text-shadow: 1px 1px #294701;
+}
+
+#logo_text a:hover .logo_colour {
+    color: #FFF;
+}
+
+#logo_text h2 {
+    font-size: 140%;
+    padding: 0 0 0 0;
+    color: #FFF;
+}
+
+nav {
+    height: 44px;
+    margin: -44px auto 0 auto;
+    color: #BCD2EE;
+    background: #B2DFEE;
+}
+
+#menu_container {
+    width: 90%;
+    min-height: 100%;
+    margin: 0 auto 0 auto;
+}
+
+#site_content {
+    width: 90%;
+    min-height: 300px;
+    overflow: hidden;
+    margin: 0px auto 0 auto;
+}
+
+#sidebar_container {
+    float: left;
+    width: 22%;
+    min-width: 210px;
+    margin: 2% 4% 0 2%;
+}
+
+.sidebar {
+    width: 100%;
+    margin: 0 0 0px 0;
+    padding: 0 15px 5px 13px;
+}
+
+.sidebar h3, .content h1 {
+    padding: 0 15px 20px 0;
+    font: 200% 'News Cycle', arial, sans-serif;
+    margin: 0 1px;
+}
+
+.sidebar h3 {
+    padding: 4px 15px 9px 0;
+}
+
+.sidebar ul {
+    margin: 0 0 15px 0;
+}
+
+.sidebar li a, .sidebar li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar_item, .content_item {
+    padding: 15px 0;
+}
+
+.content {
+    text-align: left;
+    width: 70%;
+    min-width: 200px;
+    margin: 0 0 2% 0;
+    float: right;
+    font-size: 120%;
+    padding: 2% 0 0 0;
+}
+
+.content_form {
+    width: 80%;
+    max-width: 750px;
+    overflow: hidden;
+    margin: 0 10% 0 10%;
+    padding: 20px 0 20px 0;
+}
+
+.content ul {
+    margin: 2px 0 22px 0px;
+}
+
+.content ul li, .sidebar ul li {
+    list-style-type: none;
+    background: url("<%=request.getContextPath()%>/images/bullet.png") no-repeat;
+    margin: 0 0 0 0;
+    padding: 0 0 4px 28px;
+    line-height: 1.5em;
+}
+
+footer {
+    font: 100% 'Droid Sans', arial, sans-serif;
+    height: 125px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background: #1D1D1D;
+    color: #FFF;
+    margin-bottom: -20px;
+    border-top: 6px solid #00CDCD;
+}
+
+footer p {
+    line-height: 1.7em;
+    padding: 0 0 10px 0;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.form_settings {
+    margin: 5px 0 0 0;
+}
+
+.form_settings p {
+    padding: 0 0 4px 0;
+}
+
+.form_settings p.in_line {
+    display: inline-block;
+}
+
+.form_settings p.in_line_right {
+    display: inline-block;
+    float: right;
+}
+
+.form_settings p.in_line {
+    display: inline-block;
+}
+
+.form_settings span {
+    margin: 4px 5px 0 0;
+    float: left;
+    width: 150px;
+    text-align: left;
+}
+
+.form_settings span.right, .form_settings span.required {
+    text-align: right;
+}
+
+.form_settings span.required {
+    width: 140px;
+    font-weight: bold;
+}
+
+.form_settings span.required_long {
+    width: 300px;
+    font-weight: bold;
+}
+
+/* Campos enable */
+.form_settings input.en_40, .form_settings input.en_50 , .form_settings input.en_100, .form_settings input.en_150, 
+.form_settings input.en_150_in_line , .form_settings input.en_200, .form_settings input.en_300, 
+.form_settings input.en_450{
+    padding: 5px;
+    font: 100% 'Droid Sans', arial;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+    color: #47433F;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings input.en_40 {
+    width: 40px;
+}
+
+.form_settings input.en_50 {
+    width: 50px;
+}
+
+.form_settings input.en_100 {
+    width: 100px;
+}
+
+.form_settings input.en_150 {
+    width: 150px;
+}
+
+.form_settings input.en_150_in_line {
+    float: left;
+    width: 150px;
+}
+
+.form_settings input.en_200  {
+    width: 200px;
+}
+
+.form_settings input.en_300 {
+    width: 300px;
+}
+
+.form_settings input.en_450 {
+    width: 450px;
+}
+
+/* Campos disable */
+.form_settings input.di_100, .form_settings input.di_200, .form_settings input.di_300 {
+    padding: 5px;
+    font: italic 100% 'Droid Sans', arial;
+    border: 1px solid #B0C4DE;
+    background: #A2B5CD;
+    color: #FFF;
+    cursor: no-drop;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings input.di_100  {
+    width: 100px;
+}
+
+.form_settings input.di_200  {
+    width: 200px;
+}
+
+.form_settings input.di_300 {
+    width: 300px;
+}
+
+.form_settings textarea {
+    padding: 10px;
+    width: 450px;
+    float: left;
+    font: 100% 'Droid Sans', arial;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+    color: #47433F;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings .button_down {
+    position: relative;
+    float: right;
+    font: 100% 'Droid Sans', arial;
+    text-align: center;
+    border: 0;
+    width: 99px;
+    height: 33px;
+    padding: 2px 0 3px 0;
+    margin: 0 5px 0 2px;
+    cursor: pointer;
+    background: #1A1225;
+    color: #FFF;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.destaque{
+    background:#FFFF99;
+    color:#FF0000;
+}
+
+.form_settings .button_top {
+    position: relative;
+    float: right;
+    font: 90% 'Droid Sans', arial;
+    text-align: center;
+    border: 0;
+    width: 99px;
+    height: 22px;
+    padding: 2px 0 3px 0;
+    margin: 0 5px 0 0px;
+    cursor: pointer;
+    background: #1A1225;
+    color: #FFF;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings .button_soft {
+    position: relative;
+    float: right;
+    font: 90% 'Droid Sans', arial;
+    text-align: center;
+    border: 0;
+    width: 99px;
+    height: 22px;
+    padding: 2px 0 3px 0;
+    margin: 0 5px 0 0px;
+    cursor: pointer;
+    background: #B0E0E6;
+    color: #FFF;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings select, .form_settings select.sel_300 {
+    padding: 3px;
+    margin: 0 0 0 0;
+    width: 155px;
+    height: 27px;
+    font: italic 100% 'Droid Sans', arial;
+    border: 1px solid #B0C4DE;
+    background: #A2B5CD;
+    color: #FFF;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.form_settings select.sel_300 {
+    width: 300px;
+}
+
+.form_settings .checkbox {
+    margin: 4px 0 0 0;
+    padding: 0;
+    width: 16px;
+    height: 22px;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+}
+
+.form_settings .radio {
+    position: relative;
+    margin: 7px 0 0 0;
+    width: 16px;
+    height: 8px;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+}
+
+.separator {
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #D9D5CF;
+    border-bottom: 1px solid #FFF;
+    padding: 4px 4px;
+}
+
+table {
+    margin: 10px 0 30px 0;
+    font: normal 125% 'News Cycle', arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody {
+    font: normal 80% 'News Cycle', arial;
+}
+
+table tr th, table tr td {
+    background: #555;
+    color: #FFF;
+    padding: 4px 4px;
+    text-align: left;
+    text-shadow: none;
+}
+
+table tr td {
+    background: #DDD;
+    color: #47433F;
+    border-top: 1px solid #FFF;
+}
+
+table tr td.button {
+    background: #DDD;
+    color: #47433F;
+    border-top: 1px solid #FFF;
+    width: 99px;
+}
+
+#scroll {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    bottom: 15px;
+    right: 0;
+    background: red;
+    padding: 0;
+}
+
+#scroll a {
+    float: right;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#scroll a img {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+**/
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,html body ul.sf-menu ul li {
+    width: 250px;
+}
+
+html body ul.sf-menu ul ul {
+    margin: 0 0 0 250px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * {
+    margin: 0;
+    padding: 0;
+}
+
+ul.sf-menu {
+    display: block;
+    position: relative;
+}
+
+ul.sf-menu li {
+    display: block;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+ul.sf-menu li:hover {
+    visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+ul.sf-menu a {
+    display: block;
+    position: relative;
+}
+
+ul.sf-menu ul {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    top: auto;
+    left: -999999px;
+}
+
+ul.sf-menu ul a {
+    zoom: 1; /* IE6/7 fix */
+}
+
+ul.sf-menu ul li {
+    float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+    width: 250px;
+}
+
+ul.sf-menu ul ul {
+    top: 0;
+    margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul,
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul {
+    left: auto;
+}
+
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul {
+    left: -999999px;
+}
+
+/* autoArrows CSS */
+span.sf-arrow {
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    display: block;
+    background: url("<%=request.getContextPath()%>/images/arrows-white.png") no-repeat 0 0;
+    overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+    font-size: 1px;
+}
+
+ul ul span.sf-arrow {
+    right: 10;
+    top: 20px;
+    background-position: 0 100%;
+}
+
+ul#nav {
+    float: left;
+}
+
+ul#nav ul {
+    background: #9AC0CD;
+    border-top: 1px solid #BCD2EE;
+    border-left: 2px solid #BCD2EE;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+ul#nav li a {
+    padding:5px 20px 6px 20px;
+    font: 150% 'News Cycle', arial, sans-serif;
+    text-shadow: 1px 1px #294701;
+    text-decoration: none;
+    color:#FFF;
+    margin-right: 2px;
+}
+
+ul#nav li ul li a {
+    padding:5px 15px 6px 20px;
+    font: 120% 'News Cycle', arial, sans-serif;
+    text-shadow: 1px 1px #294701;
+    text-decoration: none;
+    color:#FFF;
+    margin-right: 2px;
+}
+
+ul#nav li a:hover,ul#nav li a:focus {
+    color: #FFF;
+    text-decoration: underline;
+}
+
