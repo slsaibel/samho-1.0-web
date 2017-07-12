@@ -33,7 +33,8 @@ public class FuncionariosDAO extends ObjetoDAO implements InterfaceDAO {
         if (idFuncionario > 0) {
             complemento = " AND funcionarios.id_funcionario = " + idFuncionario;
         }
-        return super.getCampo("pessoas.nome||' '||pessoas.sobrenome", "pessoas",
+        return super.getCampo("funcionarios.id_funcionario||'/'||"
+                + "pessoas.id_pessoa||' - '||pessoas.nome||' '||pessoas.sobrenome", "pessoas",
                 "pessoas.id_pessoa = funcionarios.cod_pessoa" + complemento, true);
     }
 }
