@@ -29,8 +29,8 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
     private boolean manha;
     private boolean tarde;
     private boolean noite;
-    private boolean atendeFeriado;
     private boolean atendeExtra;
+    private boolean atendeFeriado;
 
     private ProfissionaisTurnosDAO profissionalTurnosDAO;
 
@@ -43,8 +43,8 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
         manha = false;
         tarde = false;
         noite = false;
-        atendeFeriado = false;
         atendeExtra = false;
+        atendeFeriado = false;
 
         profissionalTurnosDAO = new ProfissionaisTurnosDAO();
 
@@ -60,8 +60,8 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
         manha = profissionalTurnos.isManha();
         tarde = profissionalTurnos.isTarde();
         noite = profissionalTurnos.isNoite();
-        atendeFeriado = profissionalTurnos.isAtendeFeriado();
         atendeExtra = profissionalTurnos.isAtendeExtra();
+        atendeFeriado = profissionalTurnos.isAtendeFeriado();
 
         profissionalTurnosDAO = profissionalTurnos.getProfissionalTurnosDAO();
 
@@ -71,7 +71,7 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
     // Construtor
     public ProfissionaisTurnos(long idProfissionalTurnos, long codProfissional,
             int diaSemana, boolean madrugada, boolean manha, boolean tarde,
-            boolean noite, boolean atendeFeriado, boolean atendeExtra) {
+            boolean noite, boolean atendeExtra, boolean atendeFeriado) {
         this.idProfissionalTurnos = idProfissionalTurnos;
         this.codProfissional = codProfissional;
         this.diaSemana = diaSemana;
@@ -79,8 +79,8 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
         this.manha = manha;
         this.tarde = tarde;
         this.noite = noite;
-        this.atendeFeriado = atendeFeriado;
         this.atendeExtra = atendeExtra;
+        this.atendeFeriado = atendeFeriado;
 
         profissionalTurnosDAO = new ProfissionaisTurnosDAO();
 
@@ -111,8 +111,8 @@ public final class ProfissionaisTurnos extends Objeto implements InterfaceObj {
         hash = 17 * hash + (this.manha ? 1 : 0);
         hash = 17 * hash + (this.tarde ? 1 : 0);
         hash = 17 * hash + (this.noite ? 1 : 0);
-        hash = 17 * hash + (this.atendeFeriado ? 1 : 0);
         hash = 17 * hash + (this.atendeExtra ? 1 : 0);
+        hash = 17 * hash + (this.atendeFeriado ? 1 : 0);
         hash = 17 * hash + Objects.hashCode(this.profissionalTurnosDAO);
         return hash;
     }
