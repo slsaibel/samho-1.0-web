@@ -117,7 +117,7 @@ public class servlet_prontuario extends HttpServlet {
             out.println("<textarea id=\"input_motivo\" name=\"param3\" placeholder=\"Utilize este espaço para escrever o motivo da consulta.\" value=\"" + objeto.getMotivoConsulta() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_diagnostico\">Diagnóstico</span>");
+            out.println("<span class=\"not_required\" for=\"input_diagnostico\">Diagnóstico</span>");
             out.println("<textarea id=\"input_diagnostico\" name=\"param4\" placeholder=\"Utilize este espaço para escrever o diagnóstico.\" value=\"" + objeto.getDiagnostico() + "\"></textarea>");
             out.println("</p>");
             out.println("<p>");
@@ -129,7 +129,7 @@ public class servlet_prontuario extends HttpServlet {
             out.println("<textarea id=\"input_parecer\" name=\"param6\" placeholder=\"Utilize este espaço para escrever o parecer.\" value=\"" + objeto.getParecerProfissional() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacoes\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacoes\">Observações</span>");
             out.println("<textarea id=\"input_observacoes\" name=\"param7\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
@@ -203,9 +203,9 @@ public class servlet_prontuario extends HttpServlet {
                     objeto = new Prontuarios(
                             Long.parseUnsignedLong(obj[0].toString()),
                             Long.parseUnsignedLong(obj[1].toString()),
-                            obj[2].toString(), obj[3].toString(),
+                            obj[2].toString(), obj[3] == null ? "" : obj[3].toString(),
                             Formatacao.ajustaData(obj[4].toString(), Formatacao.DATA_DMA),
-                            obj[5].toString(), obj[6].toString(),
+                            obj[5].toString(), obj[6] == null ? "" : obj[6].toString(),
                             Boolean.parseBoolean(obj[7].toString()));
 
                     objeto.adicionarCampos();
@@ -249,8 +249,10 @@ public class servlet_prontuario extends HttpServlet {
             objeto = new Prontuarios(
                     Long.parseUnsignedLong(param1),
                     Long.parseUnsignedLong(param2),
-                    param3, param4, Formatacao.ajustaData(param5, Formatacao.DATA_DMA),
-                    param6, param7, Boolean.parseBoolean(param9));
+                    param3, param4 == null ? "" : param4, 
+                    Formatacao.ajustaData(param5, Formatacao.DATA_DMA),
+                    param6, param7 == null ? "" : param7, 
+                    Boolean.parseBoolean(param9));
 
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
