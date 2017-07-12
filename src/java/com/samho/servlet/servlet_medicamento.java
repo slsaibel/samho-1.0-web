@@ -115,7 +115,7 @@ public class servlet_medicamento extends HttpServlet {
             out.println("<input id=\"input_descricao\" name=\"param3\" class=\"en_450\" required=\"required\" type=\"text\" placeholder=\"Descrição\" value=\"" + objeto.getDescricao() + "\"/>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param4\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
@@ -188,7 +188,7 @@ public class servlet_medicamento extends HttpServlet {
                     objeto = new Medicamentos(
                             Long.parseUnsignedLong(obj[0].toString()),
                             Long.parseUnsignedLong(obj[1].toString()),
-                            obj[2].toString(), obj[3].toString(),
+                            obj[2].toString(), obj[3] == null ? "" : obj[3].toString(),
                             Boolean.parseBoolean(obj[4].toString()));
 
                     objeto.adicionarCampos();
@@ -228,7 +228,8 @@ public class servlet_medicamento extends HttpServlet {
         if (param1 != null) {
             objeto = new Medicamentos(
                     Long.parseUnsignedLong(param1),
-                    Long.parseUnsignedLong(param2), param3, param4,
+                    Long.parseUnsignedLong(param2), param3, 
+                    param4 == null ? "" : param4,
                     Boolean.parseBoolean(param6));
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
