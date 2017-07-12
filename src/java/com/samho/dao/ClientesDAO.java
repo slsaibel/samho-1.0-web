@@ -33,7 +33,8 @@ public class ClientesDAO extends ObjetoDAO implements InterfaceDAO {
         if (idCliente > 0) {
             complemento = " AND clientes.id_cliente = " + idCliente;
         }
-        return super.getCampo("pessoas.nome||' '||pessoas.sobrenome", "pessoas",
+        return super.getCampo("clientes.id_cliente||'/'||"
+                + "pessoas.id_pessoa||' - '||pessoas.nome||' '||pessoas.sobrenome", "pessoas",
                 "pessoas.id_pessoa = clientes.cod_pessoa" + complemento, true);
     }
 }
