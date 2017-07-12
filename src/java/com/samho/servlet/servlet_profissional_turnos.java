@@ -116,7 +116,7 @@ public class servlet_profissional_turnos extends HttpServlet {
             ArrayList listaDiasSemana = new ArrayList();
             listaDiasSemana = Formatacao.DIAS_SEMANA_COMPL;
             for (int i = 0; i < listaDiasSemana.size(); i++) {
-                if (i == objeto.getCodProfissional()) {
+                if (i == objeto.getDiaSemana()) {
                     out.println("<option value=\"" + String.valueOf(i) + "\" selected>" + listaDiasSemana.get(i).toString() + "</option>");
                 } else {
                     out.println("<option value=\"" + String.valueOf(i) + "\">" + listaDiasSemana.get(i).toString() + "</option>");
@@ -159,9 +159,9 @@ public class servlet_profissional_turnos extends HttpServlet {
             out.println("<p class=\"in_line\">");
             out.println("<span class=\"required\" for=\"input_check_extras\">Extras</span>");
             if (objeto.isAtendeExtra()) {
-                out.println("<input id=\"input_check_noite\" name=\"param4\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Atende Extras.\" value=\"" + Util.EXTRA + "\" checked/>");
+                out.println("<input id=\"input_check_extras\" name=\"param4\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Atende Extras.\" value=\"" + Util.EXTRA + "\" checked/>");
             } else {
-                out.println("<input id=\"input_check_noite\" name=\"param4\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Atende Extras.\" value=\"" + Util.EXTRA + "\"/>");
+                out.println("<input id=\"input_check_extras\" name=\"param4\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Atende Extras.\" value=\"" + Util.EXTRA + "\"/>");
             }
             out.println("</p>");
             out.println("<p class=\"in_line\">");
