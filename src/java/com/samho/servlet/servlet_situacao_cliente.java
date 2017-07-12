@@ -94,7 +94,7 @@ public class servlet_situacao_cliente extends HttpServlet {
             out.println("<input id=\"input_descricao\" name=\"param2\" class=\"en_450\" required=\"required\" type=\"text\" placeholder=\"Descrição\" value=\"" + objeto.getDescricao() + "\"/>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param3\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
@@ -166,8 +166,8 @@ public class servlet_situacao_cliente extends HttpServlet {
                     Object[] obj = objeto.getObjetoDAO().getDadosObjeto();
                     objeto = new SituacoesClientes(
                             Long.parseUnsignedLong(obj[0].toString()),
-                            obj[1].toString(), obj[2].toString(),
-                            Boolean.parseBoolean(obj[3].toString()));
+                            obj[1].toString(), obj[2] == null ? "" : obj[2].toString(),
+                            Boolean.parseBoolean(obj[3] == null ? "false" : obj[3].toString()));
                     
                     objeto.adicionarCampos();
 
@@ -205,7 +205,7 @@ public class servlet_situacao_cliente extends HttpServlet {
         if (param1 != null) {
             objeto = new SituacoesClientes(
                     Long.parseUnsignedLong(param1),
-                    param2, param3, Boolean.parseBoolean(param5));
+                    param2, param3 == null ? "" : param3, Boolean.parseBoolean(param5));
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
