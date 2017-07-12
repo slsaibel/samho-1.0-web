@@ -128,8 +128,8 @@ public class servlet_funcionario extends HttpServlet {
             out.println(" </select>");
             out.println("</p>");
             out.println("<p>");
-            out.println("<span class=\"required\" for=\"input_pessoa\">Pessoa</span>");
-            out.println("<select id=\"input_pessoa\" name=\"param4\" class=\"sel_300\" value=\"" + objeto.getCodPessoa() + "\">");
+            out.println("<span class=\"required\" for=\"input_pessoa\">Função</span>");
+            out.println("<select id=\"input_pessoa\" name=\"param4\" class=\"sel_300\" value=\"" + objeto.getCodFuncao() + "\">");
             ArrayList listaFuncoes = new ArrayList();
             listaFuncoes = new Funcoes().getObjetoDAO().getListaCodigoDescricao("id_funcao", "", "descricao");
             for (Iterator it = listaFuncoes.iterator(); it.hasNext();) {
@@ -159,11 +159,11 @@ public class servlet_funcionario extends HttpServlet {
             out.println("<a><input id=\"datepicker\" name=\"param8\" class=\"en_100\" required=\"required\" type=\"text\" placeholder=\"dd/mm/yyyy\" value=\"" + Formatacao.ajustaDataDMA(objeto.getDataAdmissao()) + "\"/></a>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"datepicker\">Data Demissão</span>");
+            out.println("<span class=\"not_required\" for=\"datepicker\">Data Demissão</span>");
             out.println("<a><input id=\"datepicker\" name=\"param9\" class=\"en_100\" required=\"required\" type=\"text\" placeholder=\"dd/mm/yyyy\" value=\"" + Formatacao.ajustaDataDMA(objeto.getDataDemissao()) + "\"/></a>");
             out.println("</p>");
             out.println("<p>");
-            out.println("<span class=\"required\" for=\"input_clt\">Número CLT</span>");
+            out.println("<span class=\"not_required\" for=\"input_clt\">Número CLT</span>");
             out.println("<input id=\"input_clt\" name=\"param10\" class=\"en_100\" required=\"required\" type=\"text\" placeholder=\"CLT\" value=\"" + objeto.getNumeroCLT() + "\"/>");
             out.println("</p>");
             out.println("");
@@ -235,8 +235,8 @@ public class servlet_funcionario extends HttpServlet {
                             Integer.parseUnsignedInt(obj[5].toString()),
                             Double.parseDouble(obj[6].toString()),
                             Formatacao.ajustaData(obj[7].toString(), Formatacao.DATA_DMA),
-                            Formatacao.ajustaData(obj[8] == null ? "" : obj[8].toString(), Formatacao.DATA_DMA),
-                            Integer.parseUnsignedInt(obj[9].toString()));
+                            Formatacao.ajustaData(obj[8] == null ? null : obj[8].toString(), Formatacao.DATA_DMA),
+                            Integer.parseUnsignedInt(obj[9] == null ? "-1" : obj[9].toString()));
                     
                     objeto.adicionarCampos();
 
@@ -286,8 +286,8 @@ public class servlet_funcionario extends HttpServlet {
                     Integer.parseUnsignedInt(param6),
                     Util.converterHorarioHHmmssEmDouble(param7),
                     Formatacao.ajustaData(param8, Formatacao.DATA_DMA),
-                    Formatacao.ajustaData(param9, Formatacao.DATA_DMA),
-                    Integer.parseUnsignedInt(param10));
+                    Formatacao.ajustaData(param9 == null ? null : param9, Formatacao.DATA_DMA),
+                    Integer.parseUnsignedInt(param10 == null ? "-1" : param10));
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
