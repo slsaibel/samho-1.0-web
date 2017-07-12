@@ -104,7 +104,7 @@ public class servlet_pessoa_juridica extends HttpServlet {
             out.println("<input id=\"input_sobrenome\" name=\"param3\" class=\"en_450\" required=\"required\" type=\"text\" placeholder=\"Rasão Social ou Nome Fantasia.\" value=\"" + objeto.getSobrenome() + "\"/>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param4\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("");
@@ -232,7 +232,7 @@ public class servlet_pessoa_juridica extends HttpServlet {
                     objeto.setCodSituacao(Long.parseUnsignedLong(obj[1].toString()));
                     objeto.setNome(obj[2].toString());
                     objeto.setSobrenome(obj[3].toString());
-                    objeto.setObservacoes(obj[4].toString());
+                    objeto.setObservacoes(obj[4] == null ? "" : obj[4].toString());
                     objeto.getPessoaJuridica().setCodPessoa(
                             Long.parseUnsignedLong(objFilho[0].toString()));
                     objeto.getPessoaJuridica().setCnpj(
@@ -283,7 +283,7 @@ public class servlet_pessoa_juridica extends HttpServlet {
             objeto.setIdPessoa(Long.parseUnsignedLong(param1));
             objeto.setNome(param2);
             objeto.setSobrenome(param3);
-            objeto.setObservacoes(param4);
+            objeto.setObservacoes(param4 == null ? "" : param4);
             objeto.getPessoaJuridica().setCodPessoa(
                     Long.parseUnsignedLong(param1));
             objeto.getPessoaJuridica().setCnpj(
