@@ -98,7 +98,7 @@ and open the template in the editor.
                 String senha = request.getParameter("pass");
 
                 if (LoginDAO.checkLogin(usuario, senha)) {
-                    session.setAttribute("login", Principal.usuario.getIdUsuario() + "-" + Principal.usuario.getLogin());
+                    session.setAttribute("login", Principal.usuario.getIdUsuario() + " - " + Principal.usuario.getLogin());
                 } else {
                     session.setAttribute("login", null);
                 }
