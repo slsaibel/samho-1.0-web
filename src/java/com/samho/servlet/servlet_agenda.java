@@ -171,7 +171,7 @@ public class servlet_agenda extends HttpServlet {
             out.println("<input id=\"input_horario\" name=\"param7\" class=\"en_450\" required=\"required\" type=\"text\" placeholder=\"Horário.\" value=\"" + Util.converterHorarioDoubleEmHHmmss(objeto.getHorario()) + "\"/>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param8\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("");
@@ -242,7 +242,7 @@ public class servlet_agenda extends HttpServlet {
                             Long.parseUnsignedLong(obj[4].toString()),
                             Formatacao.ajustaData(obj[5] == null ? "" : obj[8].toString(), Formatacao.DATA_DMA),
                             Util.converterHorarioHHmmssEmDouble(obj[6].toString()),
-                            obj[7].toString());
+                            obj[7] == null ? "" : obj[7].toString());
                     
                     objeto.adicionarCampos();
 
@@ -288,7 +288,7 @@ public class servlet_agenda extends HttpServlet {
                     Long.parseUnsignedLong(param4),
                     Long.parseUnsignedLong(param5),
                     Formatacao.ajustaData(param6 == null ? "" : param6, Formatacao.DATA_DMA),
-                    Util.converterHorarioHHmmssEmDouble(param7), param8);;
+                    Util.converterHorarioHHmmssEmDouble(param7), param8 == null ? "" : param8);
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
