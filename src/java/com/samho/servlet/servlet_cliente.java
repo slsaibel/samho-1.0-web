@@ -91,7 +91,7 @@ public class servlet_cliente extends HttpServlet {
 
             out.println("<div class=\"content_form\">");
             out.println("<!-- Formulário de cadcastro -->");
-            out.println("<h2>Cadastro de Clientes/Planos de Saúde</h2>");
+            out.println("<h2>Cadastro de Clientes</h2>");
             out.println("<form action=\"clientes\" method=\"post\">");
             out.println("<div class=\"form_settings\">");
             out.println("<p>");
@@ -135,7 +135,7 @@ public class servlet_cliente extends HttpServlet {
             out.println("<a><input id=\"datepicker\" name=\"param4\" class=\"en_100\" required=\"required\" type=\"text\" placeholder=\"dd/mm/yyyy\" value=\"" + Formatacao.ajustaDataDMA(objeto.getDataDeCadastro()) + "\"/></a>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param5\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"separator\"/>");
@@ -202,7 +202,7 @@ public class servlet_cliente extends HttpServlet {
                             Long.parseUnsignedLong(obj[1].toString()),
                             Long.parseUnsignedLong(obj[2].toString()),
                             Formatacao.ajustaData(obj[3].toString(), Formatacao.DATA_DMA),
-                            obj[4] == null ? " - " : obj[4].toString());
+                            obj[4] == null ? "" : obj[4].toString());
 
                     objeto.adicionarCampos();
 
@@ -242,7 +242,8 @@ public class servlet_cliente extends HttpServlet {
                     Long.parseUnsignedLong(param1),
                     Long.parseUnsignedLong(param2),
                     Long.parseUnsignedLong(param3),
-                    Formatacao.ajustaData(param4, Formatacao.DATA_DMA), param5);
+                    Formatacao.ajustaData(param4, Formatacao.DATA_DMA), 
+                    param5 == null ? "" : param5);
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
