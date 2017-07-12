@@ -187,7 +187,7 @@ public class servlet_pessoa_especializacao extends HttpServlet {
                             Long.parseUnsignedLong(obj[2].toString()),
                             obj[3].toString(), Integer.parseUnsignedInt(obj[4].toString()),
                             Formatacao.ajustaData(obj[5].toString(), Formatacao.DATA_DMA),
-                            Boolean.parseBoolean(obj[6].toString()), obj[7].toString());
+                            Boolean.parseBoolean(obj[6].toString()), obj[7] == null ? "" : obj[7].toString());
                     
                     objeto.adicionarCampos();
 
@@ -232,7 +232,7 @@ public class servlet_pessoa_especializacao extends HttpServlet {
                     Long.parseUnsignedLong(param3),
                     param4, Integer.parseUnsignedInt(param5),
                     Formatacao.ajustaData(param6, Formatacao.DATA_DMA),
-                    Boolean.parseBoolean(param7), param8);
+                    Boolean.parseBoolean(param7), param8 == null ? "" : param8);
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
