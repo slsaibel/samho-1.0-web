@@ -134,8 +134,8 @@ public class servlet_glossario_doenca_medicamento extends HttpServlet {
             out.println("<input id=\"input_quantidade\" name=\"param5\" class=\"en_100\" required=\"required\" type=\"text\" placeholder=\"Qtd. Tratamento\" value=\"" + objeto.getQuantidade() + "\"/>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Parecer Profissional</span>");
-            out.println("<textarea id=\"input_observacao\" name=\"param6\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getParecerProfissional()+ "\"></textarea>");
+            out.println("<span class=\"required\" for=\"input_parecer\">Parecer Profissional</span>");
+            out.println("<textarea id=\"input_parecer\" name=\"param6\" required=\"required\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getParecerProfissional()+ "\"></textarea>");
             out.println("</p>");
             out.println("");
             out.println("<p class=\"separator\"/>");
@@ -180,7 +180,7 @@ public class servlet_glossario_doenca_medicamento extends HttpServlet {
         String codigo = request.getParameter("codigo");
         String acao = request.getParameter("acao");
 
-        if (acao.equals("incluir")) {
+        if (acao == null || acao.equals("incluir")) {
             if (acoes[Util.INCLUIR]) {
                 objeto = new GlossarioDoencasMedicamentos();
                 objeto.setIdGlossarioDoencasMedicamento(objeto.getObjetoDAO().getProximoID(
@@ -189,7 +189,7 @@ public class servlet_glossario_doenca_medicamento extends HttpServlet {
                 processRequest(request, response);
             }
         } else {
-            if (acao == null || acao.equals("alterar")) {
+            if (acao.equals("alterar")) {
                 if (acoes[Util.ALTERAR]) {
                     objeto = new GlossarioDoencasMedicamentos();
                     objeto.adicionarWhere(new DadosDAO(
@@ -245,7 +245,8 @@ public class servlet_glossario_doenca_medicamento extends HttpServlet {
                     Long.parseUnsignedLong(param2),
                     Long.parseUnsignedLong(param3),
                     Integer.parseUnsignedInt(param4),
-                    Integer.parseUnsignedInt(param5), param6);
+                    Integer.parseUnsignedInt(param5), 
+                    param6);
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
