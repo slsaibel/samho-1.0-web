@@ -109,7 +109,8 @@ public class FabricaViewJSP {
         arquivo.write("     <!-- Estilos da página -->\n");
         arquivo.write("     <link rel=\"stylesheet\" type=\"text/css\" href=\"<%=request.getContextPath()%>/css/style.css\" />\n");
         arquivo.write("     <!-- Fonte de icones -->\n");
-        arquivo.write("     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n");
+        arquivo.write("     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" />\n");
+        arquivo.write("     <script language=\"javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js\"></script>");
         arquivo.write("\n");
         arquivo.write("     <script>\n");
         arquivo.write("         // Função javascript para incluir um registro\n");
@@ -134,6 +135,19 @@ public class FabricaViewJSP {
         arquivo.write("             }\n");
         arquivo.write("         }\n");
         arquivo.write("     </script> \n");
+        arquivo.write("     <!-- Exibir ID -->\n");
+        arquivo.write("     <script type=\"text/javascript\">\n");
+        arquivo.write("         $(document).ready(function () {\n");
+        arquivo.write("             $(\"#ocultar\").click(function (event) {\n");
+        arquivo.write("                 event.preventDefault();\n");
+        arquivo.write("                 $(\"#pesquisa\").hide(\"slow\");\n");
+        arquivo.write("             });\n");
+        arquivo.write("             $(\"#mostrar\").click(function (event) {\n");
+        arquivo.write("                 event.preventDefault();\n");
+        arquivo.write("                 $(\"#pesquisa\").show(900);\n");
+        arquivo.write("             });\n");
+        arquivo.write("         });\n");
+        arquivo.write("     </script><!-- Exibie ID -->");
         arquivo.write(" </head>\n");
     }
 
@@ -168,9 +182,19 @@ public class FabricaViewJSP {
         arquivo.write("     -->\n");
         arquivo.write("     <div>\n");
         arquivo.write("         <!-- Formulário de cadcastro -->\n");
-        arquivo.write("         <h2>Consulta de \"" + descricaoClasse + "\"</h2>\n");
-        arquivo.write("         <form action=\"#\" method=\"post\">\n");
+        arquivo.write("         <h2>Consulta de \"" + descricaoClasse + "\"  <a href=\"#\" id=\"ocultar\"> << </a> | <a href=\"#\" id=\"mostrar\"> >> </a></h2>\n");
+        arquivo.write("         <form action=\"#\" method=\"get\">\n");
         arquivo.write("             <div id=\"form_settings\" class=\"form_settings\">\n");
+        arquivo.write("                 <div id=\"pesquisa\">\n");
+        arquivo.write("                     <p class=\"in_line\">\n");
+        arquivo.write("                         <span class=\"required\" for=\"input_codigo\">Código</span>\n");
+        arquivo.write("                         <input id=\"input_codigo\" class=\"en_50\" data-type=\"search\"></input>\n");
+        arquivo.write("                     </p>\n");
+        arquivo.write("                     <p class=\"in_line\">\n");
+        arquivo.write("                         <span class=\"required\" for=\"input_descricao\">Descrição</span>\n");
+        arquivo.write("                         <input id=\"input_descricao\" class=\"en_450\" data-type=\"search\"></input>\n");
+        arquivo.write("                     </p>\n");
+        arquivo.write("                 </div>\n");
         arquivo.write("                 <%\n");
         arquivo.write("                 Objeto objeto = new " + nomeClasse + "();\n");
         arquivo.write("                 objeto.getObjetoDAO().setCamposTabelaFormatados();\n");
