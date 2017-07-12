@@ -26,22 +26,23 @@ public class LoginDAO {
      */
     public static boolean checkLogin(String login, String senha) {
         boolean check = false;
-        
+        String log = login == null ? "" : login;
+        String pass = senha == null ? "" : senha;
+
         Principal.usuario = new Usuarios();
 
         if (ConexoesDB.getInstance().getConnection() != null) {
-            
             try {
-                String sql = 
-                        " SELECT "
+                String sql
+                        = " SELECT "
                         + "      id_usuario, cod_funcionario, login, "
                         + "      senha, administrador "
                         + " FROM usuarios "
-                        + "WHERE login = '" + login + "'" 
-                        + "  AND senha = '" + senha + "';";
+                        + "WHERE login = '" + log + "'"
+                        + "  AND senha = '" + pass + "';";
 
-                PreparedStatement pst = 
-                        ConexoesDB.getInstance().getConnection().prepareStatement(sql);
+                PreparedStatement pst
+                        = ConexoesDB.getInstance().getConnection().prepareStatement(sql);
 
                 ResultSet rs = pst.executeQuery();
                 if (rs.isBeforeFirst()) {
@@ -52,16 +53,22 @@ public class LoginDAO {
                         Principal.usuario.setLogin(rs.getString("login"));
                         Principal.usuario.setSenha(rs.getString("senha"));
                         Principal.usuario.setAdministrador(rs.getBoolean("administrador"));
+                        
+                        ConexoesDB.setIsInvasao(false);
+                    }
+                } else {
+                    if (!log.equals("") || !pass.equals("")) {
+                        ConexoesDB.setIsInvasao(true);
                     }
                 }
-                
-                sql = 
-                    " SELECT "
-                    + "     id_acao_usuario, cod_acao, cod_usuario, "
-                    + "     incluir, alterar, excluir, consultar "    
-                    + " FROM acoes_usuarios WHERE cod_usuario = " 
-                    + Principal.usuario.getIdUsuario() + " ORDER BY cod_acao;";
-                
+
+                sql
+                        = " SELECT "
+                        + "     id_acao_usuario, cod_acao, cod_usuario, "
+                        + "     incluir, alterar, excluir, consultar "
+                        + " FROM acoes_usuarios WHERE cod_usuario = "
+                        + Principal.usuario.getIdUsuario() + " ORDER BY cod_acao;";
+
                 pst = ConexoesDB.getInstance().getConnection().prepareStatement(sql);
                 rs = pst.executeQuery();
                 if (rs.isBeforeFirst()) {
@@ -83,7 +90,7 @@ public class LoginDAO {
                 System.err.println(eSQL);
             }
         }
-        
+
         return check;
     }
 }
