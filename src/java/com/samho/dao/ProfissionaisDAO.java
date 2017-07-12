@@ -33,7 +33,8 @@ public class ProfissionaisDAO extends ObjetoDAO implements InterfaceDAO {
         if (idProfissional > 0) {
             complemento = " AND profissionais.id_profissional = " + idProfissional;
         }
-        return super.getCampo("pessoas.nome||' '||pessoas.sobrenome", "pessoas",
+        return super.getCampo("profissionais.id_profissional||'/'||"
+                + "pessoas.id_pessoa||' - '||pessoas.nome||' '||pessoas.sobrenome", "pessoas",
                 "pessoas.id_pessoa = profissionais.cod_pessoa" + complemento, true);
     }
 }
