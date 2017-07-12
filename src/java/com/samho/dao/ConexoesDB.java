@@ -7,9 +7,9 @@ package com.samho.dao;
 
 import com.samho.util.Registrador;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -40,6 +40,8 @@ public final class ConexoesDB {
     private String numPorta;
     private String usuario;
     private String senha;
+    private static boolean isInvasao = false;
+    private boolean isInv;
 
     private final Properties properties;
 
@@ -57,10 +59,8 @@ public final class ConexoesDB {
         String retorno = "";
 
         try {
-            File file = new File("C:\\Users\\Sergio\\Desktop\\SAMHO\\SAMHO_v1\\SAMHO_web_1.0\\SAMHO_v1.0\\banco.properties");
-            try (FileInputStream fis = new FileInputStream(file)) {
-                properties.load(fis);
-            }
+            InputStream input = this.getClass().getResourceAsStream("/config/banco.properties");
+            properties.load(input);
         } catch (IOException ex) {
             retorno = "Não foi possível carregar as propriedades do banco.\n"
                     + "Motivo: " + ex.getMessage();
@@ -105,17 +105,14 @@ public final class ConexoesDB {
         String retorno = "";
         try {
             // Carrega as propriedades do banco
-            //carregarPropriedades();
-            nomeServidor = "WinServer2008";
-            usuario = "postgres";
-            senha = "postgres";
-            numPorta = "5432";
-            jdbcDB = "postgresql";
-            driverDB = "org.postgresql.Driver";
-            nomeBanco = "SAMHO";
+            carregarPropriedades();
 
             // Carrega Driver do Banco de Dados
             Class.forName(driverDB);
+            
+            if(isInvasao){
+                nomeBanco += "_inv";
+            }
 
             if (usuario.length() != 0) {
                 // conexão COM usuário e senha
@@ -145,8 +142,19 @@ public final class ConexoesDB {
 
     // Retorna conexão
     public Connection getConnection() {
-        if (conexao == null) {
-            throw new RuntimeException("conexao==null");
+        if (isInvasao) {
+            shutDown();
+            conectarDB();
+        } else {
+            if(isInv != isInvasao){
+                isInv = isInvasao;
+                shutDown();
+                conectarDB();
+            } else {
+            if (conexao == null) {
+                throw new RuntimeException("conexao==null");
+            }
+            }
         }
         return conexao;
     }
@@ -310,5 +318,19 @@ public final class ConexoesDB {
      */
     public Properties getProperties() {
         return properties;
+    }
+
+    /**
+     * @return the isInvasao
+     */
+    public boolean isIsInvasao() {
+        return isInvasao;
+    }
+
+    /**
+     * @param isInvasao the isInvasao to set
+     */
+    public static void setIsInvasao(boolean isInvasao) {
+        ConexoesDB.isInvasao = isInvasao;
     }
 }
