@@ -87,21 +87,20 @@
      -->
      <div>
          <!-- Formulário de cadcastro -->
-         <h2>Consulta de "Ação"</h2>
-         <form action="#" method="post">
+         <h2>Consulta de "Ação"  <a href="#" id="ocultar"> << </a> | <a href="#" id="mostrar"> >> </a></h2>
+         <form action="#" method="get">
              <div id="form_settings" class="form_settings">
                  <div id="pesquisa">
-                     <p>
-                         <span for="input_codigo">Código</span>
+                     <p class="in_line">
+                         <span class="required" for="input_codigo">Código</span>
                          <input id="input_codigo" class="en_50" data-type="search"></input>
-                         <span for="input_descricao">Descrição</span>
+                     </p>
+                     <p class="in_line">
+                         <span class="required" for="input_descricao">Descrição</span>
                          <input id="input_descricao" class="en_450" data-type="search"></input>
                      </p>
                  </div>
-                 <p>
-                     a href="#" id="ocultar"> << </a> | 
-                     <a href="#" id="mostrar"> >> </a>  
-                 </p>                 <%
+                 <%
                  Objeto objeto = new Acoes();
                  objeto.getObjetoDAO().setCamposTabelaFormatados();
                  Object[] cabecalho = objeto.getObjetoDAO().getCabecalhoTabela();
