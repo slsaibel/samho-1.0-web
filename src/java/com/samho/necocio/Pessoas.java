@@ -196,7 +196,7 @@ public final class Pessoas extends Objeto implements InterfaceObj {
      */
     @Override
     public DadosDAO getDadosDescricao() {
-        return new DadosDAO("nome||' '||sobrenome", "Nome", nome + " " + sobrenome,
+        return new DadosDAO("id_pessoa||' - '||nome||' '||sobrenome", "Nome", nome + " " + sobrenome,
                 DadosDAO.TIPO_STRING, DadosDAO.IS_IGUAL, DadosDAO.NAO_CHAVE);
     }
 
