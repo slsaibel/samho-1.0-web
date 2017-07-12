@@ -353,7 +353,7 @@ footer a:hover {
     text-align: left;
 }
 
-.form_settings span.right, .form_settings span.required {
+.form_settings span.right, .form_settings span.required, .form_settings span.not_required {
     text-align: right;
 }
 
@@ -362,15 +362,24 @@ footer a:hover {
     font-weight: bold;
 }
 
+.form_settings span.not_required {
+    width: 140px;
+}
+
 .form_settings span.required_long {
     width: 300px;
     font-weight: bold;
 }
 
+.form_settings span.not_required_long {
+    width: 300px;
+}
+
 /* Campos enable */
-.form_settings input.en_40, .form_settings input.en_50 , .form_settings input.en_100, .form_settings input.en_150, 
-.form_settings input.en_150_in_line , .form_settings input.en_200, .form_settings input.en_300, 
-.form_settings input.en_450{
+.form_settings input.en_40, .form_settings input.en_50 , 
+.form_settings input.en_100, .form_settings input.en_150, 
+.form_settings input.en_150_in_line , .form_settings input.en_200, 
+.form_settings input.en_300, .form_settings input.en_450{
     padding: 5px;
     font: 100% 'Droid Sans', arial;
     border: 1px solid #E5E5DB;
@@ -415,7 +424,8 @@ footer a:hover {
 }
 
 /* Campos disable */
-.form_settings input.di_100, .form_settings input.di_200, .form_settings input.di_300 {
+.form_settings input.di_100, .form_settings input.di_200, 
+.form_settings input.di_300 {
     padding: 5px;
     font: italic 100% 'Droid Sans', arial;
     border: 1px solid #B0C4DE;
@@ -607,6 +617,11 @@ table tr td.button {
     float: right;
     padding: 0 0 0 0;
     margin: 0;
+}
+
+#pesquisa {
+    background: #D3D3D3;
+    padding: 10px 0 5px 0;
 }
 
 
