@@ -122,7 +122,7 @@ public class servlet_usuario extends HttpServlet {
             if (objeto.isAdministrador()) {
                 out.println("<input id=\"input_check_admin\" name=\"param5\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Adminidtrador do sistema.\" value=\"" + objeto.isAdministrador() + "\" checked/>");
             } else {
-                out.println("<input id=\"input_check_ativo\" name=\"param5\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Adminidtrador do sistema.\" value=\"" + objeto.isAdministrador() + "\"/>");
+                out.println("<input id=\"input_check_admin\" name=\"param5\" class=\"checkbox\" type=\"checkbox\" placeholder=\"Adminidtrador do sistema.\" value=\"" + objeto.isAdministrador() + "\"/>");
             }
             out.println("</p>");
             out.println("<p class=\"separator\"/>");
@@ -188,7 +188,7 @@ public class servlet_usuario extends HttpServlet {
                             Long.parseUnsignedLong(obj[0].toString()),
                             Long.parseUnsignedLong(obj[1].toString()),
                             obj[2].toString(), obj[3].toString(),
-                            Boolean.parseBoolean(obj[4].toString()),
+                            Boolean.parseBoolean(obj[4] == null ? "false" : obj[4].toString()),
                             new Usuarios().getPermissoes());
 
                     objeto.adicionarCampos();
