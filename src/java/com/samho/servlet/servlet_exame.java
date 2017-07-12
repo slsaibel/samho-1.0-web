@@ -115,7 +115,7 @@ public class servlet_exame extends HttpServlet {
             out.println("</p>");
             out.println("<p>");
             out.println("<span class=\"required\" for=\"input_clientes\">Cliente</span>");
-            out.println("<select id=\"input_clientes\" name=\"param2\" class=\"sel_300\" value=\"" + objeto.getCodCliente() + "\">");
+            out.println("<select id=\"input_clientes\" name=\"param3\" class=\"sel_300\" value=\"" + objeto.getCodCliente() + "\">");
             ArrayList listaClientes = new ArrayList();
             Clientes clientes = new Clientes();
             listaClientes = clientes.getObjetoDAO().getListaCodigoDescricao(clientes.getObjetoDAO().getCampoID(), "", clientes.getDadosDescricao().getCampo());
@@ -131,7 +131,7 @@ public class servlet_exame extends HttpServlet {
             out.println("</p>");
             out.println("<p>");
             out.println("<span class=\"required\" for=\"input_pessoa\">Pessoa</span>");
-            out.println("<select id=\"input_pessoa\" name=\"param2\" class=\"sel_300\" value=\"" + objeto.getCodPessoaJuridica() + "\">");
+            out.println("<select id=\"input_pessoa\" name=\"param4\" class=\"sel_300\" value=\"" + objeto.getCodPessoaJuridica() + "\">");
             ArrayList listaPessoas = new ArrayList();
             PessoasJuridicas pessoas = new PessoasJuridicas();
             listaPessoas = pessoas.getObjetoDAO().getListaCodigoDescricao(pessoas.getObjetoDAO().getCampoID(), "", pessoas.getDadosDescricao().getCampo());
@@ -154,7 +154,7 @@ public class servlet_exame extends HttpServlet {
             out.println("<textarea id=\"input_laudo\" name=\"param6\" placeholder=\"Utilize este espaço para escrever os laudos.\" value=\"" + objeto.getLaudo() + "\"></textarea>");
             out.println("</p>");
             out.println("<p class=\"in_line\">");
-            out.println("<span class=\"required\" for=\"input_observacao\">Observações</span>");
+            out.println("<span class=\"not_required\" for=\"input_observacao\">Observações</span>");
             out.println("<textarea id=\"input_observacao\" name=\"param7\" placeholder=\"Utilize este espaço para escrever suas observações.\" value=\"" + objeto.getObservacoes() + "\"></textarea>");
             out.println("</p>");
             out.println("");
@@ -223,7 +223,7 @@ public class servlet_exame extends HttpServlet {
                             Long.parseUnsignedLong(obj[2].toString()),
                             Long.parseUnsignedLong(obj[3].toString()),
                             Formatacao.ajustaData(obj[4].toString(), Formatacao.DATA_DMA),
-                            obj[5].toString(), obj[6].toString());
+                            obj[5].toString(), obj[6] == null ? "" : obj[6].toString());
                     
                     objeto.adicionarCampos();
 
@@ -267,7 +267,7 @@ public class servlet_exame extends HttpServlet {
                     Long.parseUnsignedLong(param3),
                     Long.parseUnsignedLong(param4),
                     Formatacao.ajustaData(param5, Formatacao.DATA_DMA),
-                    param6, param7);
+                    param6, param7 == null ? "" : param7);
             objeto.adicionarWhere(new DadosDAO(
                     objeto.getObjetoDAO().getCampoID(), "", param1,
                     DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
