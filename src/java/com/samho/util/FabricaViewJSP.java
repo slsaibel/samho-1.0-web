@@ -81,6 +81,7 @@ public class FabricaViewJSP {
     }
 
     private static void montarImport() throws IOException {
+        arquivo.write("<%@page import=\"com.samho.dao.DadosDAO\"%>\n");
         arquivo.write("<%@page import=\"com.samho.necocio.Objeto\"%>\n");
         arquivo.write("<%@page import=\"" + objeto.getClass().getName() + "\"%>\n");
         arquivo.write("<%@page contentType=\"text/html\" pageEncoding=\"" + encoding + "\"%>\n");
@@ -188,15 +189,29 @@ public class FabricaViewJSP {
         arquivo.write("                 <div id=\"pesquisa\">\n");
         arquivo.write("                     <p class=\"in_line\">\n");
         arquivo.write("                         <span class=\"required\" for=\"input_codigo\">Código</span>\n");
-        arquivo.write("                         <input id=\"input_codigo\" class=\"en_50\" data-type=\"search\"></input>\n");
+        arquivo.write("                         <input id=\"input_codigo\" name=\"codigo\" class=\"en_50\" data-type=\"search\"></input>\n");
         arquivo.write("                     </p>\n");
         arquivo.write("                     <p class=\"in_line\">\n");
         arquivo.write("                         <span class=\"required\" for=\"input_descricao\">Descrição</span>\n");
-        arquivo.write("                         <input id=\"input_descricao\" class=\"en_450\" data-type=\"search\"></input>\n");
+        arquivo.write("                         <input id=\"input_descricao\" name=\"descricao\" class=\"en_450\" data-type=\"search\"></input>\n");
         arquivo.write("                     </p>\n");
+        arquivo.write("                     <p class=\"in_line_right\">\n");
+        arquivo.write("                         <input class=\"button_top\" type=\"submit\" value=\"Filtrar\"/>\n");
+        arquivo.write("                     </p>");
         arquivo.write("                 </div>\n");
         arquivo.write("                 <%\n");
+        arquivo.write("                 String codigo = request.getParameter(\"codigo\");\n");
+        arquivo.write("                 String descricao = request.getParameter(\"descricao\");\n");
+        arquivo.write("\n");
         arquivo.write("                 Objeto objeto = new " + nomeClasse + "();\n");
+        arquivo.write("                 if (codigo != null && !codigo.equals(\"\")) {\n");
+        arquivo.write("                     objeto.adicionarWhere(new DadosDAO(objeto.getDadosCodigo().getCampo(), \"\", codigo, DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));\n");
+        arquivo.write("                 }\n");
+        arquivo.write("\n");
+        arquivo.write("                     if (descricao != null && !descricao.equals(\"\")) {\n");
+        arquivo.write("                         objeto.adicionarWhere(new DadosDAO(objeto.getDadosDescricao().getCampo(), \"\", descricao, DadosDAO.TIPO_STRING, DadosDAO.IS_IGUAL, DadosDAO.NAO_CHAVE));\n");
+        arquivo.write("                     }\n");
+        arquivo.write("\n");
         arquivo.write("                 objeto.getObjetoDAO().setCamposTabelaFormatados();\n");
         arquivo.write("                 Object[] cabecalho = objeto.getObjetoDAO().getCabecalhoTabela();\n");
         arquivo.write("                 Object[][] dados = objeto.getObjetoDAO().getDadosTabela();\n");

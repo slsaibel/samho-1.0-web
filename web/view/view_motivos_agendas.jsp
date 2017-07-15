@@ -1,11 +1,12 @@
 <%-- 
     Document   : view_motivos_agendas.jsp
-    Created on : "Terça-feira, 11 de Julho de 2017"
+    Created on : "Sexta-feira, 14 de Julho de 2017"
     Author     : "Sergio"
     Path:      : com.samho.necocio.MotivosAgendas
 --%>
 
 
+<%@page import="com.samho.dao.DadosDAO"%>
 <%@page import="com.samho.necocio.Objeto"%>
 <%@page import="com.samho.necocio.MotivosAgendas"%>
 <%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
@@ -93,15 +94,28 @@
                  <div id="pesquisa">
                      <p class="in_line">
                          <span class="required" for="input_codigo">Código</span>
-                         <input id="input_codigo" class="en_50" data-type="search"></input>
+                         <input id="input_codigo" name="codigo" class="en_50" data-type="search"></input>
                      </p>
                      <p class="in_line">
                          <span class="required" for="input_descricao">Descrição</span>
-                         <input id="input_descricao" class="en_450" data-type="search"></input>
+                         <input id="input_descricao" name="descricao" class="en_450" data-type="search"></input>
                      </p>
-                 </div>
+                     <p class="in_line_right">
+                         <input class="button_top" type="submit" value="Filtrar"/>
+                     </p>                 </div>
                  <%
+                 String codigo = request.getParameter("codigo");
+                 String descricao = request.getParameter("descricao");
+
                  Objeto objeto = new MotivosAgendas();
+                 if (codigo != null && !codigo.equals("")) {
+                     objeto.adicionarWhere(new DadosDAO(objeto.getDadosCodigo().getCampo(), "", codigo, DadosDAO.TIPO_LONG, DadosDAO.IS_IGUAL, DadosDAO.IS_CHAVE));
+                 }
+
+                     if (descricao != null && !descricao.equals("")) {
+                         objeto.adicionarWhere(new DadosDAO(objeto.getDadosDescricao().getCampo(), "", descricao, DadosDAO.TIPO_STRING, DadosDAO.IS_IGUAL, DadosDAO.NAO_CHAVE));
+                     }
+
                  objeto.getObjetoDAO().setCamposTabelaFormatados();
                  Object[] cabecalho = objeto.getObjetoDAO().getCabecalhoTabela();
                  Object[][] dados = objeto.getObjetoDAO().getDadosTabela();
