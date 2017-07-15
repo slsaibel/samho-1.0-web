@@ -4,6 +4,7 @@
     Author     : Sergio
 --%>
 
+<%@page import="com.samho.dao.ConexoesDB"%>
 <%@page import="com.samho.util.Registrador"%>
 <%@page import="java.util.Iterator"%>
 <%@page import="com.samho.necocio.Profissionais"%>

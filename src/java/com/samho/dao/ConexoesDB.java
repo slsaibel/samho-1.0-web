@@ -41,7 +41,7 @@ public final class ConexoesDB {
     private String usuario;
     private String senha;
     private static boolean isInvasao = false;
-    private boolean isInv;
+    private static boolean isInv;
 
     private final Properties properties;
 
@@ -51,6 +51,8 @@ public final class ConexoesDB {
     // Construtor padrão
     public ConexoesDB() {
         properties = new Properties();
+        
+        isInv = isInvasao;
 
         conectarDB();
     }
@@ -109,8 +111,8 @@ public final class ConexoesDB {
 
             // Carrega Driver do Banco de Dados
             Class.forName(driverDB);
-            
-            if(isInvasao){
+
+            if (isInvasao) {
                 nomeBanco += "_inv";
             }
 
@@ -134,7 +136,7 @@ public final class ConexoesDB {
 
     // Retorna instância
     public static ConexoesDB getInstance() {
-        if (instancia == null) {
+        if (instancia == null || (isInv != isInvasao)) {
             instancia = new ConexoesDB();
         }
         return instancia;
@@ -142,18 +144,13 @@ public final class ConexoesDB {
 
     // Retorna conexão
     public Connection getConnection() {
-        if (isInvasao) {
+        if (isInv != isInvasao) {
+            isInv = isInvasao;
             shutDown();
             conectarDB();
         } else {
-            if(isInv != isInvasao){
-                isInv = isInvasao;
-                shutDown();
-                conectarDB();
-            } else {
             if (conexao == null) {
                 throw new RuntimeException("conexao==null");
-            }
             }
         }
         return conexao;

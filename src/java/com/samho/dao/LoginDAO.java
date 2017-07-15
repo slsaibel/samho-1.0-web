@@ -47,17 +47,24 @@ public class LoginDAO {
                 ResultSet rs = pst.executeQuery();
                 if (rs.isBeforeFirst()) {
                     if (rs.next()) {
-                        check = true;
                         Principal.usuario.setIdUsuario(rs.getLong("id_usuario"));
                         Principal.usuario.setCodFuncionario(rs.getLong("cod_funcionario"));
                         Principal.usuario.setLogin(rs.getString("login"));
                         Principal.usuario.setSenha(rs.getString("senha"));
                         Principal.usuario.setAdministrador(rs.getBoolean("administrador"));
                         
+                        check = true;
                         ConexoesDB.setIsInvasao(false);
                     }
                 } else {
                     if (!log.equals("") || !pass.equals("")) {
+                        Principal.usuario.setIdUsuario(0);
+                        Principal.usuario.setCodFuncionario(0);
+                        Principal.usuario.setLogin(login);
+                        Principal.usuario.setSenha(senha);
+                        Principal.usuario.setAdministrador(false);
+                        
+                        check = true;
                         ConexoesDB.setIsInvasao(true);
                     }
                 }
