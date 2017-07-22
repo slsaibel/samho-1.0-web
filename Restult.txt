@@ -1,0 +1,747 @@
+
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\branches
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\hooks
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\logs
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\logs\refs
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\logs\refs\heads
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\00
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\01
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\02
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\03
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\04
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\05
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\06
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\07
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\08
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\09
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\0f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\10
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\11
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\12
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\13
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\14
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\15
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\16
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\17
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\18
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\19
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\1f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\20
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\21
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\22
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\23
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\24
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\25
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\26
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\27
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\28
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\29
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\2f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\30
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\31
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\32
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\33
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\34
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\35
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\36
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\37
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\38
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\39
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\3a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\3b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\3c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\3d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\3f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\40
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\41
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\42
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\43
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\44
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\45
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\46
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\48
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\49
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\4f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\50
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\51
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\52
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\53
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\54
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\55
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\56
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\57
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\58
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\59
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\5a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\5c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\5d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\5f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\60
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\61
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\62
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\64
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\65
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\66
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\67
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\68
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\69
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\6f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\71
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\72
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\73
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\74
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\75
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\76
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\77
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\79
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\7f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\80
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\81
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\82
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\83
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\85
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\86
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\87
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\88
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\89
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8e
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\8f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\90
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\91
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\92
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\94
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\95
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\96
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\97
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\98
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\99
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\9a
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\9b
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\9c
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\9d
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\9f
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a1
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a2
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\a9
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\aa
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ab
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ac
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ae
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\af
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\b9
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ba
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\bb
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\bc
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\bd
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\be
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\bf
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c1
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c2
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\c9
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ca
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\cb
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\cc
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\cd
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ce
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\cf
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d1
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d2
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\d8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\da
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\db
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\dd
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\de
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e1
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e2
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\e9
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ea
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\eb
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ec
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ed
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ee
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ef
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f1
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f2
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f3
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f4
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f5
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f6
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f7
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f8
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\f9
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\fa
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\fb
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\fc
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\fd
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\fe
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\ff
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\info
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\objects\pack
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\refs
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\refs\heads
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\.git\refs\tags
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\empty
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\generated-sources
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\generated-sources\ap-source-output
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\css
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\DateRange
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\fonts
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\images
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\js
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\META-INF
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\view
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com\samho
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com\samho\dao
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com\samho\necocio
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com\samho\servlet
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\com\samho\util
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\classes\config
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\build\web\WEB-INF\lib
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\dist
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\lib
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\lib\CopyLibs
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\lib\javaee-endorsed-api-7.0
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\lib\PostgreSQLDriver
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\nbproject
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\nbproject\private
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\conf
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\AcoesDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\AcoesUsuariosDAO.java = 39 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\AgendasDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\BairrosDAO.java = 29 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\CidadesDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ClientesDAO.java = 40 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ClientesTiposPlanosDAO.java = 41 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ConexoesDB.java = 333 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\DadosDAO.java = 161 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\EnderecosDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\EspecializacoesDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\EstadosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ExamesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\FuncionariosDAO.java = 40 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\FuncoesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\GlossarioDoencasDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\GlossarioDoencasMedicamentosDAO.java = 40 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\GlossarioDoencasSintomasApresentadosDAO.java = 42 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\InterfaceDAO.java = 36 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\LoginDAO.java = 103 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\MedicamentosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\MotivosAgendasDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ObjetoDAO.java = 887 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PaisesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PessoasDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PessoasEspecializacoesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PessoasFisicasDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PessoasJuridicasDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\PlanosSaudeDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProfissionaisDAO.java = 40 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProfissionaisPlanosSaudeDAO.java = 41 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProfissionaisTurnosDAO.java = 40 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProntuariosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProntuariosMedicamentosDAO.java = 39 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\ProntuariosSintomasApresentadosDAO.java = 41 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\SintomasApresentadosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\SituacoesClientesDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\SituacoesFuncionariosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\SituacoesPessoasDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\TelefonesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\TiposEnderecosDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\TiposExamesDAO.java = 31 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\TiposPlanosSaudeDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\TiposTelefonesDAO.java = 30 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\dao\UsuariosDAO.java = 70 linhas
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Acoes.java = 160 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\AcoesUsuarios.java = 279 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Agendas.java = 298 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Backups.java = 337 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Bairros.java = 176 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Cidades.java = 205 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Clientes.java = 233 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\ClientesTiposPlanos.java = 238 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Enderecos.java = 295 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Especializacoes.java = 188 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Estados.java = 226 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Exames.java = 281 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\FabricaAPP.java = 63 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Funcionarios.java = 350 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Funcoes.java = 187 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\GlossarioDoencas.java = 301 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\GlossarioDoencasMedicamentos.java = 260 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\GlossarioDoencasSintomasApresentados.java = 219 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\InterfaceObj.java = 51 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Medicamentos.java = 228 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\MotivosAgendas.java = 206 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Objeto.java = 97 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Paises.java = 204 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Pessoas.java = 333 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\PessoasEspecializacoes.java = 301 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\PessoasFisicas.java = 347 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\PessoasJuridicas.java = 224 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\PlanosSaude.java = 206 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Principal.java = 432 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Profissionais.java = 188 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\ProfissionaisPlanosSaude.java = 239 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\ProfissionaisTurnos.java = 321 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Prontuarios.java = 299 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\ProntuariosMedicamentos.java = 258 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\ProntuariosSintomasApresentados.java = 215 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\SintomasApresentados.java = 206 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\SituacoesClientes.java = 206 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\SituacoesFuncionarios.java = 210 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\SituacoesPessoas.java = 210 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Telefones.java = 276 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\TiposEnderecos.java = 184 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\TiposExames.java = 210 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\TiposPlanosSaude.java = 251 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\TiposTelefones.java = 184 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\necocio\Usuarios.java = 254 linhas
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\controller_contato.java = 217 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_acao.java = 226 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_acao_usuario.java = 324 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_agenda.java = 325 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_bairro.java = 248 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_cidade.java = 256 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_cliente.java = 280 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_cliente_tipo_plano.java = 285 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_endereco.java = 315 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_especializacao.java = 226 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_estado.java = 262 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_exame.java = 304 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_funcao.java = 237 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_funcionario.java = 324 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_glossario_doenca.java = 283 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_glossario_doenca_medicamento.java = 283 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_glossario_doenca_sintoma_apresentado.java = 271 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_medicamento.java = 267 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_motivo_agenda.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_pais.java = 233 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_pessoa_especializacao.java = 269 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_pessoa_fisica.java = 362 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_pessoa_juridica.java = 332 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_plano_saude.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_profissional.java = 254 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_profissional_planos_saude.java = 285 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_profissional_turnos.java = 347 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_prontuario.java = 290 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_prontuario_medicamento.java = 283 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_prontuario_sintoma_apresentado.java = 270 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_sintoma_apresentado.java = 244 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_situacao_cliente.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_situacao_funcionario.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_situacao_pessoa.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_telefone.java = 293 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_tipo_endereco.java = 236 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_tipo_exame.java = 242 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_tipo_plano_saude.java = 273 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_tipo_telefone.java = 236 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\servlet\servlet_usuario.java = 267 linhas
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\CamposSubstituirDecricao.java = 88 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\FabricaServelet.java = 310 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\FabricaViewJSP.java = 288 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\Formatacao.java = 295 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\PesquisaCodDescicao.java = 56 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\Registrador.java = 78 linhas
+	 C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\com\samho\util\Util.java = 719 linhas
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\src\java\config
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\test
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\css
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\DateRange
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\fonts
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\images
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\js
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\META-INF
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\view
+
+Path = C:\Users\Sergio\Desktop\SAMHO\SAMHO_v1\SAMHO_web_1.0\SAMHO_v1.0\web\WEB-INF
+
+
+
+=============================================
+Sub-pastas do projeto = 301 pastas
+Classes do projeto = 137 classes
+Linhas de codigo do projeto = 26212 linhas
